@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/tellnes/prundupify/issues"
   },
-  "homepage": "https://github.com/tellnes/prundupify#readme"
+  "homepage": "https://github.com/tellnes/prundupify#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
 }
