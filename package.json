@@ -1,0 +1,37 @@
+{
+  "name": "prundupify",
+  "version": "1.0.0",
+  "description": "Removes duplicate files in browserify completly",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "coverage": "istanbul cover test/test.js",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls --verbose"
+  },
+  "keywords": [
+    "browserify",
+    "browserify-plugin"
+  ],
+  "author": "Christian Tellnes <christian@tellnes.no> (http://christian.tellnes.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tellnes/prundupify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tellnes/prundupify/issues"
+  },
+  "homepage": "https://github.com/tellnes/prundupify#readme"
+}
